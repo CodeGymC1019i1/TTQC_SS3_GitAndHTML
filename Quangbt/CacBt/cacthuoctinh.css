@@ -1,0 +1,29 @@
+.tieude1{
+    background: coral;
+}
+.bt1{
+    background-color: cornsilk;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+}
+.bt2{
+    color: blue;
+    background-color: yellow;
+    width:500px;
+    height:500px;
+    border: 1px solid;
+    float: inherit;
+}
+.tieude2{
+    background-color: aquamarine;
+}
+#st{
+    color: azure;
+}
+select{
+    width: 100px;
+}
+.bt3{
+    text-align: center;
+}
