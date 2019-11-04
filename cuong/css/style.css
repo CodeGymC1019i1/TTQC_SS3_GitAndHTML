@@ -1,0 +1,24 @@
+    body{
+        background: turquoise;
+        color: blue;
+    }
+    h1{
+        color:white;
+        background:tomato;
+    }
+    h2{
+        background: turquoise;
+    }
+    
+    .blue {
+        color:blue;
+    }
+    .cam {
+        color:tomato;
+    }
+    article {
+        background: red;
+    }
+    div{
+         background: lightsalmon;
+    }
