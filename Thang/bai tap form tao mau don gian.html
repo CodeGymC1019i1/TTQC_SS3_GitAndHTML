@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Form Đơn Giản Bài 1</title>
+    <link rel="stylesheet" href="cacthuoctinh.css">
+</head>
+<body>
+<div class="bt1">
+    <h2 align="center">Bài Tập Tạo Form Bài 1 </h2>
+    <table cellspacing="10">
+        <tr>
+            <th class="tieude1" colspan="4" height="40" id="st">Sở thích của bạn</th>
+        </tr>
+        <tr>
+            <td> Họ và Tên:</td>
+            <td colspan="3"><input type="text" name="hovaten" size="35"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td colspan="3"><input type="email" name="email" size="35"></td>
+        </tr>
+        <tr>
+            <td>Sở thích:</td>
+            <td><input type="checkbox">Thể Thao</td>
+            <td><input type="checkbox">Âm Nhạc</td>
+            <td><input type="checkbox">Đọc Sách</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox">Lướt Web</td>
+            <td><input type="checkbox">Chơi Game</td>
+            <td><input type="checkbox">Điện ảnh</td>
+        </tr>
+        <td></td>
+        <td colspan="3"> <input type="checkbox">Du lịch</td>
+        </tr>
+    </table>
+</div>
+<div class="bt2">
+    <h2 align="center">Bài Tập Tạo Form Bài 2</h2>
+    <table cellspacing="10">
+        <tr>
+            <th class="tieude2" colspan="2" height="40"><h2>Đăng Ký Học Viên</h2></th>
+        </tr>
+        <tr>
+            <td>Họ và Tên:</td>
+            <td><input type="text" name="hovaten"> </td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="text" name="ngaysinh"></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td><input type="radio" name="gioitinh">Nam<input type="radio" name="gioitinh">Nữ </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><textarea name="diachi" rows="5" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td>
+                <select name="lop" valu="--Chọn lớp--">
+                    <option>--Chọn lớp--</option>
+                    <option>Lớp 10</option>
+                    <option>Lớp 11</option>
+                    <option>Lớp 12</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại:</td>
+            <td><input type="number" name="dienthoai"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="danky" value="Đăng ký"><input type="reset" name="nhaplai" value="Nhập Lại"> </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
