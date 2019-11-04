@@ -12,24 +12,37 @@
         }
 
         td {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background: white;
-            border: 1px solid #000;
-            width: 80px;
-            height: 60px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            color: #5f6062;
             font-size: 25px;
+            padding: 20px 20px 20px 20px;
+            border: 1px solid #e0e0e0;
             text-align: center;
         }
-        th{
+
+        th {
             padding: 8px;
+            color: #5f6062;
         }
 
         sub {
             font-size: 14px;
+            color: #5f6062;
         }
 
         td:nth-child() {
-            background: white;
+            background: #fff;
+        }
+
+        tbody tr td:first-child,
+        tbody tr th:first-child {
+            color: #f00;
+        }
+
+        tbody tr td:last-child,
+        tbody tr th:last-child {
+            color: #00f;
         }
     </style>
 </head>
@@ -37,13 +50,13 @@
 <body>
     <table>
         <tr>
-            <th style="background: red;color: white;">C.Nhật</th>
+            <th style="background: #f00;color: white;">C.Nhật</th>
             <th style="background: goldenrod;color: white;">T.Hai</th>
             <th style="background: goldenrod;color: white;">T.Ba</th>
             <th style="background: goldenrod;color: white;">T.Tư</th>
             <th style="background: goldenrod;color: white;">T.Năm</th>
             <th style="background: goldenrod;color: white;">T.Sáu</th>
-            <th style="background:darkblue;color: white;">T.Bảy</th>
+            <th style="background:#00f;color: white;">T.Bảy</th>
         </tr>
         <tr>
             <th>Sun</th>
