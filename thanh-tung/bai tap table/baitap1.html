@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div>
+            <a href="TH2-taoform.html" class="back">TRƯỚC</a>
+            <a href="baitap2.html" class="next">SAU</a>
+        </div>
+        <p class="BT"> bài tập : Tạo form đơn giản</p>
+        
+    <table class="table1">
+        <form action="">
+            <tr>
+                <th colspan="2">Đắng ký học viên</th>
+            </tr>
+            <tr>
+                <td> Họ và Tên : </td>
+                <td> <input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <td> Ngày sinh : </td>
+                <td> <input type="text" name="birthday"> </td>
+            </tr>
+            <tr>
+                <td> Giới tính </td>
+                <td> <input type="radio" name="gender"> nam <input type="radio" name="gender"> nữ </td>
+            </tr>
+            <tr>
+                <td>  Địa chỉ : </td>
+                <td> <textarea name="address" id="" cols="20" rows="3"></textarea> </td>
+            </tr>
+            <tr>
+                <td>  Lớp : </td>
+                <td>  <select name="class" id="">
+                        <option value=""> - Chọn lớp - </option>
+                        <option value=""> Lớp A10 </option>
+                        <option value=""> Lớp A11 </option>
+                        <option value=""> Lớp A12 </option>
+                    </select> </td>
+            </tr>
+            <tr>
+                <td>  Email : </td>
+                <td> <input type="email" name="email"> </td>
+            </tr>   
+            <tr>
+                <td> Điện thoại : </td>
+                <td> <input type="number" name="phone" maxlength="10"> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> <input type="submit" name="đắng ký" id="" value="Đắng ký">
+                    <input type="reset" name="nhập lại" id="" value="Nhập lại"></td>
+            </tr>
+        </form>
+    </table>
+
+
+    <div>
+            <table class="table2" >  
+                <form action="">
+                        <tr>
+                            <th colspan="2"> Sở thích của bạn </th>
+                            
+                        </tr>
+
+                        <tr>
+                            <td> Họ và tên </td>
+                            <td> <input type="text" name="yourname">  </td>
+                        </tr>
+
+                        <tr>
+                            <td> Email </td> 
+                            <td> <input type="email" name="email">   </td>
+                        </tr>
+
+                        <tr>
+                            <td> Sở thích </td>
+                            <td>
+                                <input type="checkbox" name="thể thao"> Thể thao 
+                                <input type="checkbox" name="thể thao"> Âm nhạc 
+                                <input type="checkbox" name="thể thao"> Đọc sách <br>
+                                <input type="checkbox" name="thể thao"> Chơi game 
+                                <input type="checkbox" name="thể thao"> Điện ảnh <br>
+                                <input type="checkbox" name="thể thao"> Du lịch  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>
+                                 <input type="submit" name="submit" value="Gửi thông tin"> 
+                                 <input type="reset" name="reset" value="Nhập lại"> 
+                            </td>
+                        </tr>
+                </form>
+            </table>
+    </div>
+</body>
+</html>
