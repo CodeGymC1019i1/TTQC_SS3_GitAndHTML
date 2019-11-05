@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Bài tập] Ứng dụng máy tính</title>
+</head>
+
+<body>
+    <h1>Calulator</h1>
+    <form>
+        <input type="text" name="number" value="12" id="so1">
+        <input type="text" name="number" value="12" id="so2"><br />
+        <input type="button" value="Addition(+)" onclick="Addition();">
+        <input type="button" value="Subtraction(-)" onclick="Subtraction();">
+        <input type="button" value="Multiplication(*)" onclick="Multiplication();">
+        <input type="button" value="Division(/)" onclick="Division();">
+    </form>
+    <script>
+        function Addition() {
+            let so1 = parseInt(document.getElementById("so1").value);
+            let so2 = parseInt(document.getElementById("so2").value);
+            let add = so1 + so2;
+
+            document.write("Kết quả: " + add);
+        }
+        function Subtraction() {
+            let so1 = parseInt(document.getElementById("so1").value);
+            let so2 = parseInt(document.getElementById("so2").value);
+            let sub = so1 - so2;
+
+            document.write("Kết quả: " + sub);
+        }
+        function Multiplication() {
+            let so1 = parseInt(document.getElementById("so1").value);
+            let so2 = parseInt(document.getElementById("so2").value);
+            let mul = so1 * so2;
+
+            document.write("Kết quả: " + mul);
+        }
+        function Division() {
+            let so1 = parseInt(document.getElementById("so1").value);
+            let so2 = parseInt(document.getElementById("so2").value);
+            let divi = so1 / so2;
+
+            document.write("Kết quả: " + divi);
+        }
+
+    </script>
+</body>
+
+</html>
